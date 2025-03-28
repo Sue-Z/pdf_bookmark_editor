@@ -13,6 +13,7 @@ You will need to have ```PySide6``` (for the GUI) and ```pymupdf``` (for the boo
 pip install PySide6
 pip install pymupdf
 ```
+
 Or you can install from the ```requirements.txt``` file:
 ```
 pip install -r requirements.txt
@@ -36,3 +37,10 @@ If you don't want to completely replace the bookmarks in your file and only wish
 With the "Extract PDF bookmarks to file" button, you can send the current bookmarks to a text file. The text file will be in "level, page number, title" format.
 
 You can edit the content of the extracted text file and use the "Replace PDF bookmarks from file" button to apply the changes to the PDF.
+
+## Usage
+Make sure you are inside the ```src/``` directory. Run the following commmand:
+```
+python main.py
+```
+If all dependencies are installed correctly, a GUI asking you to select a PDF should appear. Clicking the button will open a file dialog for you to select a PDF for editing.
