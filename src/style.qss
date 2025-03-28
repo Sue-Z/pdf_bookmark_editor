@@ -1,0 +1,25 @@
+QWidget {
+    background-color: #d5d1e0;
+    color: black;
+    font-size: 14pt;
+}
+
+QPushButton {
+    background-color: #aea1d4;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: #d3c9f0;
+}
+
+QTreeView {
+    background-color: #c0b8d6;
+    font-size: 11pt;
+}
+
+QTreeView:hover {
+    background-color: #d3c9f0;
+}

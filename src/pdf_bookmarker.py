@@ -12,6 +12,7 @@ class PDFBookmarker(QWidget):
         self.pdf_path = pdf_path
         self.setWindowTitle("PDF Bookmark Editor")
         self.grid = QGridLayout()
+        self.grid.setSpacing(10)
         self.setLayout(self.grid)
 
         self.pdf = None
